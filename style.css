@@ -1,0 +1,99 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body
+{
+    
+
+}
+
+main
+{
+    width: 80%;
+    min-height: 800px;
+    margin: 0 auto;
+    background-image: url(/aloha-strand-auf-hawaii-100_3840x2160.jpeg);
+    filter:opacity(70%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    align-items: center;
+}
+
+main p
+{
+    text-align: center;
+    color:chartreuse;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+.gruenerstrich
+{
+    width: 33%;
+    height: 8px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, lime, white);
+}
+
+#emailinput
+{
+   appearance: none;
+   background-color: transparent;
+   margin-top: 50px;
+   border: none;
+   font-size: 1.5rem;
+   outline: none;
+}
+
+input::placeholder
+{
+    color: lime;
+}
+
+.zweitergruenerstrich
+{
+    width: 33%;
+    height: 4px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, lime, white);
+}
+
+#passwordinput
+{
+   appearance: none;
+   background-color: transparent;
+   margin-top: 50px;
+   border: none;
+   font-size: 1.5rem;
+   outline: none;
+}
+
+
+#submit
+{
+   appearance: none;
+   background-color: lime;
+   margin-top: 50px;
+   border-radius: 5px;
+   font-size: 1.5rem;
+   outline: none;
+   width: 20%;;
+}
+
+
+
+
+
+
+    
+    
+    
