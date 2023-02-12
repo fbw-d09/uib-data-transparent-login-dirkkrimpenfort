@@ -15,11 +15,11 @@ body
 main
 {
     width: 80%;
-    height: 800px;
+    min-height: 800px;
     margin: 0 auto;
     background-image: url(/aloha-strand-auf-hawaii-100_3840x2160.jpeg);
     filter:opacity(70%);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -67,6 +67,27 @@ input::placeholder
     background-image: linear-gradient(to right, lime, white);
 }
 
+#passwordinput
+{
+   appearance: none;
+   background-color: transparent;
+   margin-top: 50px;
+   border: none;
+   font-size: 1.5rem;
+   outline: none;
+}
+
+
+#submit
+{
+   appearance: none;
+   background-color: lime;
+   margin-top: 50px;
+   border-radius: 5px;
+   font-size: 1.5rem;
+   outline: none;
+   width: 20%;;
+}
 
 
 
